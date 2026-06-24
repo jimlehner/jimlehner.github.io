@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Home on Jim Lehner</title>
+		<title>Home on Jim Lehner Personal Website</title>
 		<link>http://localhost:1313/</link>
-		<description>Recent content in Home on Jim Lehner</description>
+		<description>Recent content in Home on Jim Lehner Personal Website</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -37,7 +37,7 @@
 				<link>http://localhost:1313/python-lib/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/python-lib/</guid>
-				<description>&lt;h1&gt;process_improvement.py&lt;/h1&gt;&#xD;&#xA;&lt;h2&gt;A Python library dedicated to process improvement&lt;/h2&gt;&#xD;&#xA;&lt;div class=&#34;python-layout&#34;&gt;&#xD;&#xA;  &lt;!-- Left column --&gt;&#xD;&#xA;  &lt;div class=&#34;python-text&#34;&gt;&#xD;&#xA;    &lt;p&gt;&#xD;&#xA;      &lt;em&gt;process_improvement.py&lt;/em&gt; is a Python library that serves as a free alternative to paid tools like Excel, Minitab, and JMP. Assuming a rudimentary knowledge of the Python programming language, the library simplifies the task of performing calculations and generating the figures that are essential for understanding variation, reducing costs, and improving quality.&#xD;&#xA;    &lt;/p&gt;&#xD;&#xA;    &lt;p&gt;&#xD;&#xA;      Although the primary tool of the library is the XmR chart, the most useful type of process behavior chart, it also generates capability histograms, combo charts, trended X charts, limit charts, and a grid of X charts providing a system-level view of a process called network analysis.&#xD;&#xA;    &lt;/p&gt;</description>
+				<description>&lt;h1&gt;process_improvement.py&lt;/h1&gt;&#xD;&#xA;&lt;h2&gt;A Python library dedicated to process improvement&lt;/h2&gt;&#xD;&#xA;&lt;div class=&#34;python-layout&#34;&gt;&#xD;&#xA;  &lt;!-- Left column --&gt;&#xD;&#xA;  &lt;div class=&#34;python-text&#34;&gt;&#xD;&#xA;    &lt;p&gt;&#xD;&#xA;      &lt;em&gt;process_improvement.py&lt;/em&gt; is a Python library that serves as a free alternative to paid tools like Excel, Minitab, and JMP. Assuming a rudimentary knowledge of the Python programming language, the library simplifies the task of performing calculations and generating the figures that are essential for understanding variation, reducing costs, and improving quality.&#xD;&#xA;    &lt;/p&gt;&#xD;&#xA;    &lt;div class=&#34;carousel python-carousel&#34;&#xD;&#xA;     data-images=&#34;/images/python-lib/combo_chart.png,&#xD;&#xA;                  /images/python-lib/capability_histogram.png,&#xD;&#xA;                  /images/python-lib/limit_chart.png,&#xD;&#xA;                  /images/python-lib/limit_chart_NA.png,&#xD;&#xA;                  /images/python-lib/network_analysis.png,&#xD;&#xA;                  /images/python-lib/taguchi_loss_function.png,&#xD;&#xA;                  /images/python-lib/trended_x_chart.png,&#xD;&#xA;                  /images/python-lib/xmr_chart.png,&#xD;&#xA;                  /images/python-lib/xmr_comparison.png&#34;&gt;&#xD;&#xA;&lt;p&gt;&lt;img class=&#34;carousel-image&#34;&#xD;&#xA;src=&#34;http://localhost:1313/images/python-lib/combo_chart.png&#34;&#xD;&#xA;alt=&#34;Python carousel&#34;&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
