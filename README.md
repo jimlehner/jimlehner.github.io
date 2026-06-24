@@ -14,7 +14,7 @@ Live site: https://jimlehner.github.io.
 - Styling: Hugo theme (see below)
 
 ## Project Structure
-
+```
 ├── archetypes/
 ├── assets/
 ├── content/        # Pages and blog posts
@@ -26,6 +26,7 @@ Live site: https://jimlehner.github.io.
 ├── README.md
 └── .github/
     └── workflows/  # GitHub Actions deployment
+```
 
 ## Local Development
 
