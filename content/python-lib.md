@@ -2,7 +2,7 @@
 title: Python
 ---
 
-<h1>process_improvement.py</h1>
+<h1>process_improvement</h1>
 
 <h2>A Python library dedicated to process improvement</h2>
 
