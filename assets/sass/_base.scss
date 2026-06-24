@@ -23,12 +23,24 @@ body {
 }
 
 h1 {
-  margin-bottom: 0.1em;
+  margin-bottom: 0em;
   padding: 0 2rem;
 }
 
 h2 {
-  margin-top: -1rem;
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   padding: 0 2rem;
+}
+
+h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  h1, h2 {
+    padding: 0 1rem;
+  }
 }
