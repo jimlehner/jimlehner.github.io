@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<section class="hero">
+    <div class="hero-image-wrapper">
+        <img src="/images/background_xchart.png" class="hero-bg" alt="background decoration">
+        <img src="/images/HeadShot-1.jpg" alt="Jim Lehner" class="hero-image">
+    </div>
+
+    <h1>Jim Lehner</h1>
+
+    <h3>
+        Using data-driven methods to reduce costs and improving quality of manufactured products
+    </h3>
+
+    <div class="hero-buttons">
+        <a href="/about" class="btn-outline">About</a>
+        <a href="/bqi" class="btn-outline">Broken Quality</a>
+        <a href="/python-lib" class="btn-outline">Python Library</a>
+        <a href="/book" class="btn-outline">Book</a>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://github.com/jimlehner" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/jim-lehner/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="https://medium.com/@jim.lehner" target="_blank">
+            <i class="fa-brands fa-medium"></i>
+        </a>
+    </div>
+
+</section>
+
+<section>
+    {{ .Content }}
+</section>
+
+{{ end }}

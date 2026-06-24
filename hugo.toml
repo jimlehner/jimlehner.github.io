@@ -1,0 +1,8 @@
+baseURL = 'https://jimlehner.github.io/'
+locale = 'en-us'
+title = 'Jim Lehner Personal Website'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

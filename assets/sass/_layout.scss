@@ -1,0 +1,82 @@
+/* =========================
+   SITE LAYOUT (GLOBAL)
+   ========================= */
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+.navbar {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+  background: var(--background);
+}
+
+.nav-container {
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav li {
+  display: inline;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 0.05rem 0;
+  margin-top: auto;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  background: var(--background);
+  position: relative;
+  z-index: 10;
+}
