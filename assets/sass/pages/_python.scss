@@ -6,8 +6,12 @@
 }
 
 .python-text {
-  flex: 1;
+  min-width: 0;
 }
+
+// .python-text {
+//   flex: 1;
+// }
 
 .python-carousel img {
   width: 100%;
