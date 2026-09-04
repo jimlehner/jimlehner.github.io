@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:51799/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:51799/book/</loc>
   </url><url>
-    <loc>http://localhost:1313/book/</loc>
+    <loc>http://localhost:51799/bqi/</loc>
   </url><url>
-    <loc>http://localhost:1313/bqi/</loc>
+    <loc>http://localhost:51799/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:51799/essays/</loc>
   </url><url>
-    <loc>http://localhost:1313/essays/</loc>
+    <loc>http://localhost:51799/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:51799/presentations/</loc>
   </url><url>
-    <loc>http://localhost:1313/presentations/</loc>
+    <loc>http://localhost:51799/python-lib/</loc>
   </url><url>
-    <loc>http://localhost:1313/python-lib/</loc>
+    <loc>http://localhost:51799/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:51799/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/webapps/</loc>
+    <loc>http://localhost:51799/webapps/</loc>
   </url>
 </urlset>

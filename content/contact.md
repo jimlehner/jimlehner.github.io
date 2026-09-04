@@ -1,13 +1,13 @@
 ---
-title: Web Apps
+title: Contact
 ---
 
 <h1>Contact</h1>
 
-<div class="webapps-layout">
+<div class="contact-layout">
 
 <!-- TEXT COLUMN -->
-<div class="webapps-text">
+<div class="contact-text">
     <p>
             Regardless of the product, project, or industry, my experience has consistently revealed the same underlying pattern: <em>understanding variation is the key to managing the chaos of manufacturing</em>. When we fail to understand variation, we fail to recognize that, no matter how hard we try, no two manufactured parts, assemblies, products, or services will ever be the same. Whether we like it or not, variation is always at work.
         </p>
