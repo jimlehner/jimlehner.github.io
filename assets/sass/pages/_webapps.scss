@@ -10,19 +10,16 @@
   flex: 1;
 }
 
-.webapps-carousel img {
+.video-container {
   width: 100%;
-  max-height: 400px;
-  height: auto;
-  object-fit: contain;
-  aspect-ratio: 16 / 9;
-  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.carousel-controls {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /*Python media options*/
@@ -37,16 +34,4 @@
     width: 100%;
   }
 
-  .webapps-carousel {
-    order: -1;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .webapps-carousel img {
-    width: 100%;
-    max-width: 600px;
-  }
 }
