@@ -1,25 +1,19 @@
 ---
-title: Contact
+title: "Contact"
 ---
 
-<h1>Contact</h1>
+## Contact
 
-<div class="contact-layout">
+Regardless of the product, project, or industry, my experience has consistently revealed the same underlying pattern: <em>understanding variation is the key to managing the chaos of manufacturing</em>. When we fail to understand variation, we fail to recognize that, no matter how hard we try, no two manufactured parts, assemblies, products, or services will ever be the same. Whether we like it or not, variation is always at work.
 
-<!-- TEXT COLUMN -->
-<div class="contact-text">
-    <p>
-            Regardless of the product, project, or industry, my experience has consistently revealed the same underlying pattern: <em>understanding variation is the key to managing the chaos of manufacturing</em>. When we fail to understand variation, we fail to recognize that, no matter how hard we try, no two manufactured parts, assemblies, products, or services will ever be the same. Whether we like it or not, variation is always at work.
-        </p>
-        <div class="about-image">
-            <img src="/images/fig_is_process_predictable.png"
-                 class="improvements-image"
-                 alt="Flowchart">
-        </div>
-        <p>
-            If you're done with "thinking" about how to solve manufacturing and quality problems instead of doing the work that actually eliminates them, I'm here to help. For over a century, the tools and techniques I use have been proving their utility by answering the question: <em>Is the process predictable or unpredictable?</em> It is time that you started benefiting from them too.
-        </p>
-    </div>
+<div class="content-image-wrap">
+    <img src="/img/contact/fig_is_process_predictable.png"
+         class="content-image"
+         alt="Flowchart outlining the logic for determining if a process is predictable">
+</div>
+
+If you're done with "thinking" about how to solve manufacturing and quality problems instead of doing the work that actually eliminates them, I'm here to help. For over a century, the tools and techniques I use have been proving their utility by answering the question: <em>Is the process predictable or unpredictable?</em> It is time that you started benefiting from them too.
+
 </div>
 
 <div class="contact-form">
@@ -39,7 +33,7 @@ title: Contact
         <input type="email" id="email" name="email" required>
         <label for="message">How can I help? (required)</label>
         <textarea id="message" name="message" rows="6" required></textarea>
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" class="webapp-button">
             Send Message
         </button>
     </form>

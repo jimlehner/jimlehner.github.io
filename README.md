@@ -1,4 +1,4 @@
-# Jim Lehner - Personal Website (Hugo)
+# Jim Lehner - Professional Website (Built with Hugo)
 
 This is the source code for my personal website built with [Hugo](https://gohugo.io/) and deployed to GitHub Pages.
 
@@ -32,7 +32,7 @@ Live site: https://jimlehner.github.io.
 
 Run the Hugo development server using Powershell:
 
-```hugo serve```
+```hugo server```
 
 Then open:
 http://localhost:1313/
