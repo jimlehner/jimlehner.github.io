@@ -235,16 +235,38 @@
 /* =========================
    PDF LAYOUT (GLOBAL COMPONENT)
    ========================= */
+// .pdf-container {
+//   width: 100%;
+//   margin: 0;
+//   display: flex;
+//   justify-content: center;
+//   margin: -1rem 0 3rem 0;
+// }
+
+// .pdf-container iframe {
+//   width: 75%;
+//   height: 525px;
+//   border: 1px solid #000;
+// }
+
 .pdf-container {
   width: 100%;
-  margin: 0;
+  min-width: 0;
+  margin: -1rem 0 3rem 0;
   display: flex;
   justify-content: center;
-  margin: -1rem 0 3rem 0;
 }
 
 .pdf-container iframe {
   width: 75%;
+  max-width: 100%;
   height: 525px;
   border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .pdf-container iframe {
+    width: 100%;
+  }
 }
