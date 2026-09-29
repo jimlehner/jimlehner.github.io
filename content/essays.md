@@ -4,8 +4,97 @@ title: Essays
 
 <h1>Essays</h1>
 
-<p>
-    The essays found here range from data-driven improvement case studies to  
-</p>
+<div class="essays-layout">
 
-<h2>XmR Chart-it</h2>
+  <div class="essays-text">
+    <p>
+      The essays found here explore the theory and practice of data-driven problem solving in a manufacturing environment. Although the primary tool discussed in these essays is the process behavior chart, the success of these endeavours was only possible by spending time where the work was done. Without this, numbers cannot be imbued with meaning and the data, as intriguing as it might be, lacks the context that makes improvement possible.
+    </p>
+    <p>
+        If you prefer the EPUB format over a PDF, visit <a href="https://store.brokenquality.com/" target="_blank" rel="noopener"> store.brokenquality.com </a> where you can download the EPUBs.
+    </p>
+    <p>
+        Please note that navigation to this page has been intentionally omitted from the navigation links of this website. It can only be accessed via jimlehner.github.io/essays. 
+    </p>
+  </div>
+
+<div class="essay-grid">
+    <article class="essay-card">
+        <img src="/images/essays/needle-cannula-cover.png"
+             alt="The Needle & the Cannula: A case study in SPC">
+        <p>
+            This essay is a case study in the application of a novel Statistical Process Control (SPC) methodology called network analysis. The method uses a grid of process behavior charts to facilitate uninterrupted visual reasoning.
+        </p>
+        <a href="/pdfs/the-needle-and-the-cannula.pdf"
+           class="btn btn-primary"
+           target="_blank"
+           rel="noopener">
+            Read The Needle & the Cannula
+        </a>
+    </article>
+    <article class="essay-card">
+        <img src="/images/essays/definition-of-quality-cover.png"
+             alt="The Definition of Quality">
+        <p>
+            This essay explores how the adherance to specifications approach to quality came to dominate manufacturing and explains how the Taguchi loss function serves as a more robust and practical alternative.
+        </p>
+        <a href="/pdfs/the-definition-of-quality.pdf"
+           class="btn btn-primary"
+           target="_blank"
+           rel="noopener">
+            Read The Definition of Quality
+        </a>
+    </article>
+    <article class="essay-card">
+        <img src="/images/essays/using-gdt-cover.png"
+             alt="Using GD&T to improve an automated manufacturing process">
+        <p>
+            This essay is a case study in the use of GD&T to improve an automated manufacturing process. By transitioning the vision system from a linear tolerance zone to positional, signficant throughput improvements were realized.
+        </p>
+        <a href="/pdfs/using-gdt-to-improve-automated-manufacturing-line.pdf"
+           class="btn btn-primary"
+           target="_blank"
+           rel="noopener">
+            Read Using GD&T to Improve
+        </a>
+    </article>
+    <article class="essay-card">
+        <img src="/images/essays/what-the-spec-cover.png"
+             alt="What the Spec? The practical differences between process limits and specification limits">
+        <p>
+            What are process limit, and how do they differ from specification limits? The answers to these questions play a critical role in how we improve quality & reduce costs. This essay presents operational definitions for the two types of limits and the context that is required to put them to use.
+        </p>
+        <a href="/pdfs/"
+           class="btn btn-primary"
+           target="_blank"
+           rel="noopener">
+            Read What the Spec?
+        </a>
+    </article>
+    <article class="essay-card">
+        <img src="/images/essays/network-analysis-cover.png"
+             alt="Network Analysis: Advancing the utility of SPC">
+        <p>
+            Modern manufacturing ecosystems produce data at a scale unrivaled in human history and yet, the way we analyze data using process behavior charts has stayed the same. Network analysis expands the utility of SPC to more efficiently make sense of that data.
+        </p>
+        <a href="/pdfs/"
+           class="btn btn-primary"
+           target="_blank"
+           rel="noopener">
+            Read Network Analysis
+        </a>
+    </article>
+    <article class="essay-card">
+        <img src="/images/essays/taguchi-loss-cover.png"
+             alt="The Taguchi Loss Function: A more accurate model of loss due to poor quality">
+        <p>
+            This essay presents the case for replacing the adherence to specification economic model of loss due to poor quality (aka goal post method) with the Taguchi loss function, a more realistic, higher fidelity model of economic loss due to poor quality.
+        </p>
+        <a href="/pdfs/"
+           class="btn btn-primary"
+           target="_blank"
+           rel="noopener">
+            Read The Taguchi Loss Function
+        </a>
+    </article>
+</div>

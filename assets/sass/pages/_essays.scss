@@ -1,0 +1,74 @@
+.essays-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.essays-text p {
+    margin-bottom: 0rem;
+}
+
+.essay-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 4rem;
+    column-gap: 2rem;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.essay-card {
+    min-width: 0;
+    text-align: center;
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto 1rem;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    p {
+        margin-left: 0;
+        padding-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+}
+
+.essay-card img {
+    width: 100%;
+    max-width: 275px;
+    height: auto;
+}
+
+// Tablet
+@media (max-width: 900px) {
+    .essay-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+// Mobile
+@media (max-width: 600px) {
+    .essay-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .essay-card .btn {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
