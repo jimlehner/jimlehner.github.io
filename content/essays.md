@@ -14,7 +14,7 @@ title: Essays
         If you prefer the EPUB format over a PDF, visit <a href="https://store.brokenquality.com/" target="_blank" rel="noopener"> store.brokenquality.com </a> where you can download the EPUBs.
     </p>
     <p>
-        Please note that navigation to this page has been intentionally omitted from the navigation links of this website. It can only be accessed via jimlehner.github.io/essays. 
+        Note that the navigation link to this page has been omitted intentionally from the header and footer of this website. It can only be accessed via jimlehner.github.io/essays. 
     </p>
   </div>
 
