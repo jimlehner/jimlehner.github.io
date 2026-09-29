@@ -64,7 +64,7 @@ title: Essays
         <p>
             What are process limit, and how do they differ from specification limits? The answers to these questions play a critical role in how we improve quality & reduce costs. This essay presents operational definitions for the two types of limits and the context that is required to put them to use.
         </p>
-        <a href="/pdfs/"
+        <a href="/pdfs/what-the-spec.pdf"
            class="btn btn-primary"
            target="_blank"
            rel="noopener">
@@ -77,7 +77,7 @@ title: Essays
         <p>
             Modern manufacturing ecosystems produce data at a scale unrivaled in human history and yet, the way we analyze data using process behavior charts has stayed the same. Network analysis expands the utility of SPC to more efficiently make sense of that data.
         </p>
-        <a href="/pdfs/"
+        <a href="/pdfs/network-analysis.pdf"
            class="btn btn-primary"
            target="_blank"
            rel="noopener">
@@ -90,7 +90,7 @@ title: Essays
         <p>
             This essay presents the case for replacing the adherence to specification economic model of loss due to poor quality (aka goal post method) with the Taguchi loss function, a more realistic, higher fidelity model of economic loss due to poor quality.
         </p>
-        <a href="/pdfs/"
+        <a href="/pdfs/the-taguchi-loss-function.pdf"
            class="btn btn-primary"
            target="_blank"
            rel="noopener">
