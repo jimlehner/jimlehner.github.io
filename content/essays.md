@@ -8,7 +8,7 @@ title: Essays
 
   <div class="essays-text">
     <p>
-      The essays found here explore the theory and practice of data-driven problem solving in a manufacturing environment. Although the primary tool discussed in these essays is the process behavior chart, the success of these endeavours was only possible by spending time where the work was done. Without this, numbers cannot be imbued with meaning and the data, as intriguing as it might be, lacks the context that makes improvement possible.
+      The essays found here explore the theory and practice of data-driven problem solving in a manufacturing environment. Although the primary tool discussed in these essays is the process behavior chart (otherwise known as a control chart), success was only possible because of the time spent where the work was done. Without participating in the production process, numbers cannot be imbued with meaning and data, as intriguing as it might be, lacks the context that is necessary to facilitate world-class improvements and quality. 
     </p>
     <p>
         If you prefer the EPUB format over a PDF, visit <a href="https://store.brokenquality.com/" target="_blank" rel="noopener"> store.brokenquality.com </a> where you can download the EPUBs.
