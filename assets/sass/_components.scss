@@ -105,6 +105,15 @@
 .social-icons .substack-icon {
   width: 2.6rem;
   height: 2.6rem;
+  margin-left: -3px;
+  vertical-align: middle;
+  // color: var (--primary)
+}
+
+.social-icons .substack-icon-about {
+  width: 2.6rem;
+  height: 2.6rem;
+  margin-left: -18px;
   vertical-align: middle;
   // color: var (--primary)
 }
