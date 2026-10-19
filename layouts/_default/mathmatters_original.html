@@ -1,0 +1,65 @@
+{{ define "main" }}
+<div class="math-matters-header">
+    <h1>The Math Matters</h1>
+    <p class="math-matters-subtitle">
+        A Substack newsletter exploring the role that numbers and data play in reducing costs and improving the quality of manufactured products.
+    </p>
+    <a class="btn btn-primary math-matters-subscribe"
+        href="https://themathmatters.substack.com/subscribe"
+        target="_blank"
+        rel="noopener">
+        Subscribe to The Math Matters
+    </a>
+</div>
+
+<div class="math-matters-grid">
+    {{ $feedResult := try (resources.GetRemote "https://themathmatters.substack.com/feed") }}
+
+    {{ with $feedResult.Value }}
+        {{ $xml := .Content | transform.Unmarshal }}
+
+        {{ range first 10 $xml.channel.item }}
+            {{ $articleLink := .link }}
+            {{ $articleTitle := .title }}
+            {{ $enclosure := index . "enclosure" }}
+            {{ $image := "" }}
+
+            {{ with $enclosure }}
+                {{ $image = index . "-url" }}
+            {{ end }}
+
+            <article class="math-matters-card">
+                <div class="math-matters-card-content">
+                    <h2>{{ $articleTitle }}</h2>
+
+                    <p class="math-matters-excerpt">
+                        {{ .description | plainify | htmlUnescape | truncate 220 }}
+                    </p>
+
+                    <a class="btn btn-primary math-matters-read-more"
+                       href="{{ $articleLink }}"
+                       target="_blank"
+                       rel="noopener">
+                        Read article →
+                    </a>
+                </div>
+
+                {{ with $image }}
+                    <a class="math-matters-image-link"
+                       href="{{ $articleLink }}"
+                       target="_blank"
+                       rel="noopener">
+                        <img class="math-matters-image"
+                             src="{{ . }}"
+                             alt="{{ $articleTitle }}"
+                             loading="lazy">
+                    </a>
+                {{ end }}
+            </article>
+        {{ end }}
+
+    {{ else }}
+        <p>Unable to load the latest articles.</p>
+    {{ end }}
+</div>
+{{ end }}
