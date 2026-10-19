@@ -2,71 +2,172 @@
 title: Python
 ---
 
-<h1>process_improvement</h1>
-
-<h2>A Python library dedicated to process improvement</h2>
-
-<div class="python-layout">
-
-  <!-- Left column -->
-  <div class="python-text">
-    <p>
-      <em>process_improvement.py</em> is a Python library that serves as a free alternative to paid tools like Excel, Minitab, and JMP. Assuming a rudimentary knowledge of the Python programming language, the library simplifies the task of performing calculations and generating the figures that are essential for understanding variation, reducing costs, and improving quality.
+<div class="python-header">
+    <h1>process_improvement.py</h1>
+    <p class="python-subtitle">
+        A Python library dedicated to process improvement? <br>Just what I was looking for!
     </p>
-    <div class="carousel python-carousel"
-     data-images="/images/python-lib/combo_chart.png,
-                  /images/python-lib/capability_histogram.png,
-                  /images/python-lib/limit_chart.png,
-                  /images/python-lib/limit_chart_NA.png,
-                  /images/python-lib/network_analysis.png,
-                  /images/python-lib/taguchi_loss_function.png,
-                  /images/python-lib/trended_x_chart.png,
-                  /images/python-lib/xmr_chart.png,
-                  /images/python-lib/xmr_comparison.png">
-
-  <img class="carousel-image"
-       src="/images/python-lib/combo_chart.png"
-       alt="Python carousel">
-
-  <div class="carousel-controls">
-    <button class="prev-btn">←</button>
-    <button class="next-btn">→</button>
-  </div>
-
-</div>
-    <p>
-      Although the primary tool of the library is the XmR chart, the most useful type of process behavior chart, it also generates capability histograms, combo charts, trended X charts, limit charts, and a grid of X charts providing a system-level view of a process called network analysis.   
-    </p>
-    <div class="book-cta">
-      <a href="https://github.com/jimlehner/process-improvement/tree/main"
-         class="btn btn-primary"
-         target="_blank"
-         rel="noopener">
-         Click here to learn more!
-      </a>
+    <div class="python-button-container">
+        <a href="https://github.com/jimlehner/process-improvement/tree/main"
+           class="btn btn-primary"
+           target="_blank"
+           rel="noopener">
+            Learn more about the library on GitHub
+        </a>
     </div>
-  </div>
-  
-  <!-- <div class="carousel python-carousel"
-     data-images="/images/python-lib/combo_chart.png,
-                  /images/python-lib/capability_histogram.png,
-                  /images/python-lib/limit_chart.png,
-                  /images/python-lib/limit_chart_NA.png,
-                  /images/python-lib/network_analysis.png,
-                  /images/python-lib/taguchi_loss_function.png,
-                  /images/python-lib/trended_x_chart.png,
-                  /images/python-lib/xmr_chart.png,
-                  /images/python-lib/xmr_comparison.png">
-
-  <img class="carousel-image"
-       src="/images/python-lib/combo_chart.png"
-       alt="Python carousel">
-
-  <div class="carousel-controls">
-    <button class="prev-btn">←</button>
-    <button class="next-btn">→</button>
-  </div>
-
-</div> -->
-
 </div>
+
+<div class="python-primary-card">
+    <div class="python-intro">
+        <p>
+            The <em>process_improvement.py</em> library serves as a free alternative to tools like Excel, Minitab, and JMP, all of which require a fee to access. Assuming a rudimentary knowledge of Python, the library simplifies the calculations and generation of figures that play a foundational role in solving problems, reducing costs, and improving quality.
+        </p>
+        <p>
+            Although the primary tool of the library is the XmR chart, it offers functionality for eight other process improvement tools, including capability histograms, combo charts, trended X charts, limit charts, and network analysis charts.
+        </p>
+        <p>
+            Hosted on PyPI, <em>process_improvement</em> can be installed using pip by running the following command in the command prompt:
+        </p>
+        <p>
+            <b>pip install process-improvement</b>
+        </p>
+    </div>
+    <div class="python-gallery">
+        <article class="python-gallery-card">
+            <button class="python-gallery-image-button" type="button"
+                    data-full-image="/images/python-lib/combo_chart.png"
+                    data-image-alt="Combined process improvement charts"
+                    aria-label="Enlarge combo chart">
+                <img src="/images/python-lib/combo_chart.png"
+                     alt="Combined process improvement charts"
+                     loading="lazy">
+            </button>
+            <div class="python-gallery-content">
+                <h2>Combo Charts</h2>
+                <p>Combo charts allow users to examine the voice of the process and the voice of the customer in a single field of view. The voice of the process is defined by the process limits on the X chart, while the voice of the customer is defined by the specification limits on the capability histogram.</p>
+            </div>
+        </article>
+        <article class="python-gallery-card">
+            <button class="python-gallery-image-button" type="button"
+                    data-full-image="/images/python-lib/capability_histogram.png"
+                    data-image-alt="Process capability histogram"
+                    aria-label="Enlarge capability histogram">
+                <img src="/images/python-lib/capability_histogram.png"
+                     alt="Process capability histogram"
+                     loading="lazy">
+            </button>
+            <div class="python-gallery-content">
+                <h2>Capability Histograms</h2>
+                <p>Also called a process histogram, the capability histogram reveals the shape, center, and spread of a dataset in the context of the specification limits and target. This visual arrangement makes it clear whether the distribution fits within the tolerance or exceeds it.</p>
+            </div>
+        </article>
+        <article class="python-gallery-card">
+            <button class="python-gallery-image-button" type="button"
+                    data-full-image="/images/python-lib/limit_chart.png"
+                    data-image-alt="Process limit chart"
+                    aria-label="Enlarge limit chart">
+                <img src="/images/python-lib/limit_chart.png"
+                     alt="Process limit chart"
+                     loading="lazy">
+            </button>
+            <div class="python-gallery-content">
+                <h2>Limit Charts</h2>
+                <p>Not to be confused with a process behavior chart, a limit chart plots process data in time order in the context of the specification limits and target. This visual arrangement makes it easy to identify individual values that exceed the specification limits and examine the relationship between the process mean and target.</p>
+            </div>
+        </article>
+        <article class="python-gallery-card">
+            <button class="python-gallery-image-button" type="button"
+                    data-full-image="/images/python-lib/limit_chart_NA.png"
+                    data-image-alt="Network analysis limit chart"
+                    aria-label="Enlarge network limit chart">
+                <img src="/images/python-lib/limit_chart_NA.png"
+                     alt="Network analysis limit chart"
+                     loading="lazy">
+            </button>
+            <div class="python-gallery-content">
+                <h2>Network Limit Charts</h2>
+                <p>Network limit charts are composed of a grid of individual limit charts that share the same y-axis. This arrangement allows for direct visual comparison between process elements performing the same task, such as machines producing the same part.</p>
+            </div>
+        </article>
+        <article class="python-gallery-card">
+            <button class="python-gallery-image-button" type="button"
+                    data-full-image="/images/python-lib/network_analysis.png"
+                    data-image-alt="Network analysis chart"
+                    aria-label="Enlarge network analysis chart">
+                <img src="/images/python-lib/network_analysis.png"
+                     alt="Network analysis chart"
+                     loading="lazy">
+            </button>
+            <div class="python-gallery-content">
+                <h2>Network Analysis</h2>
+                <p>A network analysis chart is composed of a grid of X charts that share the same y-axis. This allows for direct visual comparison of the means and process limits for system elements performing the same task. This approach is useful when there is a need to understand systems, as opposed to individual machines.</p>
+            </div>
+        </article>
+        <article class="python-gallery-card">
+            <button class="python-gallery-image-button" type="button"
+                    data-full-image="/images/python-lib/taguchi_loss_function.png"
+                    data-image-alt="Taguchi loss function"
+                    aria-label="Enlarge Taguchi loss function">
+                <img src="/images/python-lib/taguchi_loss_function.png"
+                     alt="Taguchi loss function"
+                     loading="lazy">
+            </button>
+            <div class="python-gallery-content">
+                <h2>Taguchi Loss Function</h2>
+                <p>The Taguchi loss function calculates the economic loss associated with poor quality. It provides a more accurate model of loss than the traditional approach of adhering to specifications.</p>
+            </div>
+        </article>
+        <article class="python-gallery-card">
+            <button class="python-gallery-image-button" type="button"
+                    data-full-image="/images/python-lib/trended_x_chart.png"
+                    data-image-alt="Trended X chart"
+                    aria-label="Enlarge trended X chart">
+                <img src="/images/python-lib/trended_x_chart.png"
+                     alt="Trended X chart"
+                     loading="lazy">
+            </button>
+            <div class="python-gallery-content">
+                <h2>Trended X Charts</h2>
+                <p>As the name suggests, the trended X chart calculates process limits for data that exhibit a distinct increasing or decreasing trend. This allows for the identification of assignable causes of exceptional variation in datasets that would otherwise go unnoticed.</p>
+            </div>
+        </article>
+        <article class="python-gallery-card">
+            <button class="python-gallery-image-button" type="button"
+                    data-full-image="/images/python-lib/xmr_chart.png"
+                    data-image-alt="XmR process behavior chart"
+                    aria-label="Enlarge XmR chart">
+                <img src="/images/python-lib/xmr_chart.png"
+                     alt="XmR process behavior chart"
+                     loading="lazy">
+            </button>
+            <div class="python-gallery-content">
+                <h2>XmR Charts</h2>
+                <p>The XmR chart is the most useful type of process behavior chart. Given a dataset composed of individual values, the XmR chart allows you to determine when it is economical to take action to improve a process and when it is economical to leave a process alone.</p>
+            </div>
+        </article>
+        <article class="python-gallery-card">
+            <button class="python-gallery-image-button" type="button"
+                    data-full-image="/images/python-lib/xmr_comparison.png"
+                    data-image-alt="Comparison of XmR charts"
+                    aria-label="Enlarge XmR chart comparison">
+                <img src="/images/python-lib/xmr_comparison.png"
+                     alt="Comparison of XmR charts"
+                     loading="lazy">
+            </button>
+            <div class="python-gallery-content">
+                <h2>XmR Chart Comparisons</h2>
+                <p>The XmR comparison chart allows users to compare how process behavior has changed across different process stages. This visual arrangement is useful for evaluating how effective changes have been in efforts to eliminate assignable causes.</p>
+            </div>
+        </article>
+    </div>
+</div>
+
+<div class="python-lightbox" id="python-lightbox"
+     role="dialog" aria-modal="true"
+     aria-label="Enlarged chart image" aria-hidden="true" hidden>
+    <button class="python-lightbox-close" type="button"
+            aria-label="Close enlarged image">&times;</button>
+    <img class="python-lightbox-image" src="" alt="">
+</div>
+
+<script src="/js/python-gallery.js" defer></script>

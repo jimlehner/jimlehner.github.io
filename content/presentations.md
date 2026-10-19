@@ -2,73 +2,88 @@
 title: Presentations
 ---
 
-<h1>Presentations</h1>
-
-<h2>The Challenge of Manufacturing</h2>
-
-<div class="webapps-layout">
-    <p>
-        At its core, the challenge of manufacturing is the challenge of making parts, assemblies, and products that are, for all intents and purposes the same. This presentation explores the role that variation plays in manufacturing and presents a case for how to make sense of it using process behavior charts.
+<div class="presentations-header">
+    <h1>Public Speaking & Guest Lecturing</h1>
+    <p class="presentations-subtitle">
+        I am always looking for opportunities to speak with students and professionals. If you work with or manage a group that you think would benefit from an exporsure to my methods, reach out using the contact form at the bottom of this page or email me at James.Lehner@gmail.com.
     </p>
-    <div class="pdf-container">
-    <div class="pdf-desktop">
-        <iframe src="/pdfs/challenge-of-manufacturing-presentation.pdf"></iframe>
-    </div>
-    <div class="pdf-mobile">
-        <a href="/pdfs/challenge-of-manufacturing-presentation.pdf"
-           target="_blank"
-           rel="noopener"
-           class="btn btn-primary">
-            View Presentation PDF
-        </a>
-    </div>
+</div>
 
+<div class="presentations-list">
+    <section class="presentation-card">
+        <div class="presentation-info">
+            <h2>The Challenge of Manufacturing</h2>
+            <p>
+                At its core, the challenge of manufacturing is the challenge of making parts, assemblies, and products that are, for all intents and purposes, the same. This is easier said than done because, as hard as we may try, no two parts, assemblies, or products will ever be exactly the same. Why? Because of something so ubiquitous that we tend to overlook it: variation.
+            </p>
+            <p>    
+                Starting with a broad discussion of the difference between numbers and data and narrowing to a practical discussion of process behavior charts, this presentation explores the role of variation in manufacturing and demonstrates how process behavior charts can help us make sense of it. 
+            </p>
+            <a href="/pdfs/challenge-of-manufacturing-presentation.pdf"
+                download
+                class="btn btn-primary presentation-download">
+                    Download Presentation
+                </a>
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-desktop">
+                <iframe
+                    src="/pdfs/challenge-of-manufacturing-presentation.pdf"
+                    title="The Challenge of Manufacturing presentation">
+                </iframe>
+            </div>
+            <div class="pdf-mobile">
+                <a href="/pdfs/challenge-of-manufacturing-presentation.pdf"
+                   target="_blank"
+                   rel="noopener"
+                   class="btn btn-primary">
+                    View Presentation PDF
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="presentation-card">
+        <div class="presentation-info">
+            <h2>The Definition of Quality</h2>
+            <p>
+                Ask 10 people to define quality, and you will get 10 different answers. Although these different answers will incorporate similar ideas, the differences, not the similarities, are the problem. In order to express something meaningful, a definition must be clear, specific, and operationally useful. That is, it must be built on a collective understanding. Without one, achieving organization goals becomes exceedingly difficult because meaning is not shared.
+            </p>
+            <p>
+                This presentation presents the case for a definition of quality that is useful at all levels of an organization, one that facilitates cooperation on a scale that no other definition of quality can muster. When a definition means nothing in particular, it means nothing at all. Why not start with one as far-reaching as quality?
+            </p>
+            <a href="/pdfs/definition-of-quality-presentation.pdf"
+                download
+                class="btn btn-primary presentation-download">
+                    Download Presentation
+                </a>
+        </div>
+        <div class="pdf-container">
+            <div class="pdf-desktop">
+                <iframe
+                    src="/pdfs/definition-of-quality-presentation.pdf"
+                    title="The Definition of Quality presentation">
+                </iframe>
+            </div>
+            <div class="pdf-mobile">
+                <a href="/pdfs/definition-of-quality-presentation.pdf"
+                   target="_blank"
+                   rel="noopener"
+                   class="btn btn-primary">
+                    View Presentation PDF
+                </a>
+            </div>
+        </div>
+    </section>
 </div>
-</div>
+
+
 <hr class="section-divider">
-<h2>The Definition of Quality</h2>
 
-<div class="webapps-layout">
-    <p>
-        Ask 10 people to define quality, and you will get 10 different answers. Although these different answers will incorporate similar ideas, the differences, not the similarities, are the problem. In order to express something meaningful, a definition must be clear, specific, and operationally useful. That is, it must be built on a collective understanding. Without one, achieving organization goals becomes exceedingly difficult because meaning is not shared.
-    </p>
-    <p>
-        This presentation presents the case for a definition of quality that is useful at all levels of an organization, one that facilitates cooperation on a scale that no other definition of quality can muster. When a definition means nothing in particular, it means nothing at all. Why not start with one as far-reaching as quality?
-    </p>
-    <div class="pdf-container">
-    <div class="pdf-desktop">
-        <iframe src="/pdfs/definition-of-quality-presentation.pdf">
-        </iframe>
-    </div>
-    <div class="pdf-mobile">
-        <a href="/pdfs/definition-of-quality-presentation.pdf"
-            target="_blank"
-            rel="noopener"
-            class="btn btn-primary">
-             View Presentation PDF
-        </a>
-    </div>
-
-</div>
-
-</div>
-
-<hr class="section-divider">
-
-<h2>Get in Touch</h2>
-
-<div class="contact-layout">
-    <div class="contact-text">
-        <p>
-            I am always looking for opportunities to speak with students and professionals. If you have a group that you think would benefit from being exposed to the data-driven methods that make world-class quality possible, send me a message.
-        </p>
-        <img src="/images/xmr_chart_variation_labeled.png"
-            alt="XmR chart with regions of common causes and 
-            assignable causes labeled">
-    </div>
-    <div class="contact-form">
+<div class="contact-section">
+    <h2>Start a conversation or request a presentation</h2>
+    <div class="contact-form-card">
         <form action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="c69e4c81-a9c4-4bda-9428-9962e857e43b">
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
             <div class="name-fields">
                 <div>
                     <label for="first-name">First Name (required)</label>
