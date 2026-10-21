@@ -1,5 +1,11 @@
 [
   {
+    "title": "Predictable or Unpredictable: That is the Question!",
+    "link": "https://themathmatters.substack.com/p/predictable-or-unpredictable",
+    "description": "Knowing how to build a process behavior chart and knowing how to interpret one is a distinction that is often overlooked. Although the skills for building process behavior charts certainly contribute to effective interpretation, the charts alone do not guarantee that insights will be turned into actions that reduce costs and improve quality.",
+    "image": "/images/mathmatters/predictable_unpredictable.png"
+  },
+  {
     "title": "How to build an XmR chart (with Excel) - Part 2",
     "link": "https://themathmatters.substack.com/p/how-to-xmr-chart-with-excel-part2",
     "description": "Building on Part 1 of this series, this essay provides additional insights into using the world's most ubiquitous analytical software to make sense of data and understand variation.",

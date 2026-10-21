@@ -65,6 +65,58 @@ h3 {
   margin: 1.5rem auto 0;
 }
 
+.hero-headshot-link {
+  position: relative;
+  display: inline-block;
+  // width: 350px;
+  // height: 350px;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #9DB7CC;
+  box-sizing: border-box;
+  transition: border-color 0.25s ease;
+}
+
+.hero-headshot-link:hover .hero-image,
+.hero-headshot-link:focus-visible .hero-image {
+  border-color: #1f3a5f;
+}
+
+.hero-headshot-link:hover .headshot-overlay,
+.hero-headshot-link:focus-visible .headshot-overlay {
+  opacity: 1;
+}
+.headshot-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: 50%;
+  background: rgba(0, 17, 62, 0.55);
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
 @media (max-width: 768px) {
   h1, h2 {
     padding: 0 1rem;

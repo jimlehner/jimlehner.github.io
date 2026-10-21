@@ -74,6 +74,7 @@
 .about-image a {
   position: relative;
   display: inline-block;
+  aspect-ratio: 1/1;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -85,7 +86,8 @@
   max-width: 100%;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid transparent;
+  border: 3px solid #9DB7CC;
+  // border: 3px solid transparent;
   box-sizing: border-box;
   transition: border-color 0.25s ease;
 }
@@ -220,6 +222,7 @@
     order: -1;
     flex: 0 0 auto;
     width: 100%;
+    display: flex;
     justify-content: center;
     margin-bottom: 0;
   }
