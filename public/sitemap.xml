@@ -2,28 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:60712/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/books/</loc>
+    <loc>http://localhost:60712/books/</loc>
   </url><url>
-    <loc>http://localhost:1313/bqi/</loc>
+    <loc>http://localhost:60712/bqi/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:60712/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:60712/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/essays/</loc>
+    <loc>http://localhost:60712/essays/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:60712/hireme/</loc>
   </url><url>
-    <loc>http://localhost:1313/presentations/</loc>
+    <loc>http://localhost:60712/</loc>
   </url><url>
-    <loc>http://localhost:1313/python-lib/</loc>
+    <loc>http://localhost:60712/presentations/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:60712/python-lib/</loc>
   </url><url>
-    <loc>http://localhost:1313/mathmatters/</loc>
+    <loc>http://localhost:60712/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/webapps/</loc>
+    <loc>http://localhost:60712/mathmatters/</loc>
+  </url><url>
+    <loc>http://localhost:60712/webapps/</loc>
   </url>
 </urlset>

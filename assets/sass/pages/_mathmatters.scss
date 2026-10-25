@@ -1,5 +1,6 @@
-
 /* The Math Matters page */
+
+/* Header */
 
 .math-matters-header {
   text-align: center;
@@ -9,6 +10,22 @@
 
 .math-matters-header h1 {
   margin-bottom: 1rem;
+}
+
+.math-matters-section-header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto 0;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.math-matters-section-header h2 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-indent: 0;
 }
 
 .math-matters-subtitle {
@@ -24,20 +41,95 @@
   margin-top: 1.5rem;
 }
 
-/* Article list */
+/* Shared page-width container */
+
+.math-matters-grid,
+.math-matters-info-grid {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+/* Featured grid: 2 columns, 1 row */
+
+.math-matters-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+/* Article list: vertical stack */
 
 .math-matters-grid {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 100%;
-  max-width: 1200px;
-  padding: 0 1.5rem;
-  margin: 2rem auto 3rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Shared card look (article cards + featured cells) */
+
+.math-matters-card,
+.math-matters-info-cell {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  background: #F3F5F7;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
   box-sizing: border-box;
 }
 
-/* Article cards */
+.math-matters-card:hover,
+.math-matters-info-cell:hover {
+  transform: translateY(-4px);
+  border-color: #1f3a5f;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+/* Featured cell layout */
+
+.math-matters-info-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: left;
+  padding: 2rem;
+  min-width: 0;
+}
+
+.math-matters-info-cell h3 {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin: 0 0 0.75rem 0;
+  padding: 0;
+  text-align: left;
+  text-indent: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.math-matters-info-cell p {
+  line-height: 1.7;
+  margin: 0 0 1.25rem 0;
+  padding: 0;
+  text-align: left;
+  text-indent: 0;
+  flex: 1 0 auto;
+}
+
+.math-matters-info-button {
+  align-self: flex-start;
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
+/* Article card layout */
 
 .math-matters-card {
   display: flex;
@@ -45,17 +137,6 @@
   align-items: center;
   gap: 2rem;
   padding: 2rem;
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  background: #F3F5F7;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  transition: box-shadow 0.25s ease, transform 0.25s ease;
-}
-
-.math-matters-card:hover {
-  transform: translateY(-4px);
-  border-color: #1f3a5f;
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
 }
 
 .math-matters-card-content {
@@ -80,6 +161,7 @@
   line-height: 1.7;
   margin: 0;
 }
+
 .math-matters-date {
   font-size: 0.85rem;
   color: #666;
@@ -91,19 +173,35 @@
   margin-top: 1rem;
 }
 
-/* Article images */
+/* Images (article cards + featured cells) */
 
-.math-matters-image-link {
+/* Shared link wrapper */
+.math-matters-image-link,
+.math-matters-info-image-link {
   display: block;
-  flex: 0 0 300px;
-  width: 300px;
   overflow: hidden;
   border-radius: 8px;
 }
 
+/* Article cards: fixed 300px column next to the text */
+.math-matters-image-link {
+  flex: 0 0 300px;
+  width: 300px;
+}
+
+/* Featured cells: full width of the cell, above the text */
+.math-matters-info-image-link {
+  flex-shrink: 0;
+  width: 100%;
+  margin: 0 0 1.25rem 0;
+}
+
+/* Shared image look */
 .math-matters-image {
   display: block;
+  box-sizing: border-box;
   width: 100%;
+  max-width: 100%;
   height: auto;
   object-fit: contain;
   border: 1px solid #e5e5e5;
@@ -112,35 +210,46 @@
   transition: border-color 0.25s ease;
 }
 
-.math-matters-image-link:hover .math-matters-image {
+/* Shared hover highlight */
+.math-matters-image-link:hover .math-matters-image,
+.math-matters-info-image-link:hover .math-matters-image {
   border-color: #1f3a5f;
 }
 
-/* Responsive layout */
+/* Responsive layout (keep last so it overrides the base rules) */
 
 @media (max-width: 600px) {
-  .math-matters-grid {
-    padding: 0 1rem;
-    gap: 1rem;
-  }
-
-  .math-matters-card {
-    flex-direction: column-reverse;
-    align-items: stretch;
-    gap: 1rem;
-    padding: 1.25rem;
-  }
-
-  .math-matters-image-link {
-    flex: auto;
-    width: 100%;
-  }
-
   .math-matters-header {
     padding: 0 1rem;
   }
 
   .math-matters-subtitle {
     font-size: 1.1rem;
+  }
+
+  .math-matters-grid,
+  .math-matters-info-grid {
+    padding: 0 1rem;
+    gap: 1rem;
+  }
+
+  .math-matters-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .math-matters-card,
+  .math-matters-info-cell {
+    padding: 1.25rem;
+  }
+
+  .math-matters-card {
+    flex-direction: column-reverse;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .math-matters-image-link {
+    flex: auto;
+    width: 100%;
   }
 }
