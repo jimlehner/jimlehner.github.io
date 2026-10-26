@@ -64,16 +64,48 @@ title: About
         Having worked in the aerospace, automotive, medical device, industrial machining, healthcare, and defense industries, I've been afforded the opportunity to solve a wide variety of business and manufacturing problems. Regardless of the product, project, or industry, my success has consistently revealed the same underlying truth: <em>the key to managing the chaos of manufacturing is understanding variation</em>, and the key to understanding variation lies in your process data.
       </p>
       <p>
-        Turning that data into insights and those insights into actions that reduce costs and improve the quality of manufactured products is my specialty. Let's discuss how these skills can be put to work for you!
+        Turning data into insights and those insights into actions that reduce costs and improve the quality of manufactured products is my specialty. It is how I eliminated <a href="https://jimlehner.github.io/pdfs/the-needle-and-the-cannula.pdf" target="_blank" rel="noopener"><em>$494,460 in annual scrap for a medical device customer</em></a> and how I resolved a $215M defense contract dispute. It is how I eliminated process induced damage (PID) during the assembly of the  low pressure turbine (LPT) for a commercial jet engine and how I reduced cooling time after the assembly by more than 70%. These successes are not isolated achievements. They are the result of a systematic, data-driven approach to problem-solving that I have refined over the last 13 years. Let's discuss how this approach can deliver measurable results for you and your organization!
       </p>
+      <div class="about-cta-wrap">
+        <a class="btn btn-primary" href="/contact/">Let's Talk</a>
+      </div>
     </section>
     <section class="about-card">
-      <h2>Teaching and Continuous Improvement</h2>
+      <h2>Writing and Teaching Continuous Improvement</h2>
       <p>
-        When not solving manufacturing problems, I spend my time writing about and teaching the methods that have been pivotal to my success. Chief among these techniques are the process behavior chart and the way of thinking known as Statistical Process Control (SPC).
+        When not solving manufacturing problems, I spend my time writing about and teaching the methods that have been pivotal to my success. Chief among the topics I explore are the process behavior chart (aka control chart) and the way of thinking known as Statistical Process Control (SPC). 
+      </p>
+      <p> 
+        In this domain, the work I am most proud of is <a href="https://store.brokenquality.com/b/virus-of-variation-epub" target="_blank" rel="noopener"><em>The Virus of Variation: Making Sense of Death and Data Using Process Behavior Charts</em></a>. Avalible in print and EPUB, <em>The Virus of Variation</em> uses the story of the 19th century hungarian physician, Ignaz Semmelweis, to introduce readers to the world of data-driven decision making and process improvement.
       </p>
       <p>
-        If you are interested in learning more about my methods or have a group that you think would benefit from discussing them, email me at <a href="mailto:James.Lehner@gmail.com">James.Lehner@gmail.com</a> or visit the contact page.
+      I have also started a series of digital products, available as EPUBs and PDFs, known as the Manufacturing Process Improvement Series. Each issue of the series is a deep dive into a specific topic related to manufacturing, data, and process improvement, with two issues currently available: <a href="https://store.brokenquality.com/b/how-to-xmr-with-excel" target="_blank" rel="noopener"><em>How to Build an XmR Chart (with Excel)</em></a> and <a href="https://store.brokenquality.com/b/process-capability-indices" target="_blank" rel="noopener"><em>Understanding the Process Capability Indices</em></a>.
+      </p>
+      <div class="about-image-grid">
+        <a class="about-image-link"
+          href="https://store.brokenquality.com/b/virus-of-variation-epub"
+          target="_blank"
+          rel="noopener"
+          aria-label="The Virus of Variation (opens in a new tab)">
+          <img src="/images/about/virus_of_variation_cover.jpg" alt="The Virus of Variation book cover" loading="lazy">
+        </a>
+        <a class="about-image-link"
+          href="https://store.brokenquality.com/b/how-to-xmr-with-excel"
+          target="_blank"
+          rel="noopener"
+          aria-label="How to Build an XmR Chart with Excel (opens in a new tab)">
+          <img src="/images/about/how_to_xmr_cover.png" alt="How to Build an XmR Chart (with Excel) book cover" loading="lazy">
+        </a>
+        <a class="about-image-link"
+          href="https://store.brokenquality.com/b/process-capability-indices"
+          target="_blank"
+          rel="noopener"
+          aria-label="Description of page three (opens in a new tab)">
+          <img src="/images/about/understanding_capability_indices_cover.png" alt="Description of image three" loading="lazy">
+        </a>
+      </div>
+      <p>
+        Manufacturing and process improvement are my passion, and I relish any opportunity to share what I have learned. If you are interested in learning more about my methods or have a group that you think would benefit from discussing them, email me at <a href="mailto:James.Lehner@gmail.com">James.Lehner@gmail.com</a> or reach out through the <a href="/contact/">contact</a> page.
       </p>
       <p>
         Additional information can be found at
@@ -88,15 +120,15 @@ title: About
         <a href="https://www.linkedin.com/in/jim-lehner/" target="_blank" rel="noopener" aria-label="LinkedIn">
           <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a href="https://themathmatters.substack.com" target="_blank" rel="noopener" aria-label="The Math Matters on Substack">
-          <i class="fa-brands fa-substack"></i>
+        <a href="https://themathmatters.substack.com/" target="_blank" rel="noopener noreferrer" aria-label="The Math Matters on Substack">
+          <svg class="substack-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"</path>
+          </svg>
         </a>
       </div>
     </section>
-
   </div>
 
-  
 <aside class="about-image">
   <a href="https://www.linkedin.com/in/jim-lehner/"
      target="_blank"
